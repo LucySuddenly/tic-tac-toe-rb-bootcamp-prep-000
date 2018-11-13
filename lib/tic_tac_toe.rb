@@ -98,7 +98,7 @@ def play(board)
   end
   if won?(board) == true
      puts "Congratulations #{winner(board)}!"
-     binding.pry
+    # binding.pry
   elsif draw?(board) == true
     puts "Cat's Game!"
   end 
