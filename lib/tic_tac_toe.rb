@@ -96,10 +96,10 @@ def play(board)
   until over?(board) 
     turn(board)
   end
-  if won?(board) == true
+  if won?(board) 
      puts "Congratulations #{winner(board)}!"
     # binding.pry
-  elsif draw?(board) == true
+  elsif draw?(board)
     puts "Cat's Game!"
   end 
 end 
